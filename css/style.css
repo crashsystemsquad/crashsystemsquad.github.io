@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .notfound {
@@ -36,7 +36,7 @@ body {
 }
 
 .notfound .notfound-404 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #222;
   font-size: 220px;
   letter-spacing: 10px;
@@ -45,12 +45,12 @@ body {
   text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
 }
 
-.notfound .notfound-404 h1>span {
+.notfound .notfound-404 h1 > span {
   text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
 }
 
 .notfound p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #c9c9c9;
   font-size: 16px;
   font-weight: 400;
@@ -59,7 +59,7 @@ body {
 }
 
 .notfound a {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
@@ -85,6 +85,6 @@ body {
   }
 
   .notfound .notfound-404 h1 {
-      font-size: 122px;
+    font-size: 122px;
   }
 }
