@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Created by /Throne404 -->
+    <!-- Instagram @throne404 -->
+
+    <link rel="shortcut icon" href="https://i.ibb.co/T1dQHWd/css.png" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crash System Squad</title>
+  </head>
+
+  <body id="home" class="scrollspy">
+    <!-- Navbar -->
+
+    <div class="navbar-fixed">
+      <nav class="blue-grey darken-3">
+        <div class="container">
+          <div class="nav-wrapper col m4 s12">
+            <a href="#home" class="brand-logo">CSS</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#fortpolio">Coming soon</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Sidenav -->
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#fortpolio">Coming soon</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <!-- Slider -->
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/slider2.png" />
+          <!-- random image -->
+          <div class="caption left-align col m4 s12">
+            <h4>Crashsystemsquad</h3>
+            <h5 class="light grey-text text-lighten-3">coming soon</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/slider3.png" />
+          <!-- random image -->
+          <div class="caption right-align col m4 s12">
+            <h4>Crashsystemsquad</h>
+            <h5 class="light grey-text text-lighten-3">coming soon</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/slider4.png" />
+          <!-- random image -->
+          <div class="caption center-align col m4 s12">
+            <h4>Crashsystemsquad</h4>
+            <h5 class="light grey-text text-lighten-3">coming soon</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sideNav = document.querySelectorAll(".sidenav");
+      M.Sidenav.init(sideNav);
+      const slider = document.querySelectorAll(".slider");
+      M.Slider.init(slider, {
+        indicators: false,
+        interval: 3000,
+        transistion: 600,
+      });
+
+      const parallax = document.querySelectorAll(".parallax");
+      M.Parallax.init(parallax);
+
+      const materialbox = document.querySelectorAll(".materialboxed");
+      M.Materialbox.init(materialbox);
+
+      const scroll = document.querySelectorAll(".scrollspy");
+      M.ScrollSpy.init(scroll, {
+        scrollOffset: 50,
+      });
+    </script>
+  </body>
+</html>
