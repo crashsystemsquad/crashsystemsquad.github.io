@@ -10,6 +10,7 @@
 
 /* Jumbotron */
 .jumbotron {
+  background-image: url(img/jmb.png);
   background-size: cover;
   height: 540px;
   text-align: center;
