@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: PhantomXploit # the main title
+title: Crash System Squad # the main title
 
 tagline: Blog # it will display as the sub-title
 
@@ -34,8 +34,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: PhantomXploit
-  email: PhantomXploit@cyber.id # change to your email address
+  name: Crash System Squad
+  email: crashsystemsquad@cyber.id # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://i.ibb.co/b6Qxwt9/20240108-121033.png
+avatar: https://i.ibb.co/QvctKqn/css.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

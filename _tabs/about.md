@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Crash System Squad was formed in 2019 by Tn.Cr4sh
+We are Indonesian Defacer Team.
